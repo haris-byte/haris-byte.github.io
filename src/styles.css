@@ -93,8 +93,8 @@
   --surface: #131C33;
   --surface-2: #24476C;
   --hairline: rgba(230, 232, 230, 0.14);
-  --brand: #24476C;
-  --brand-contrast: #E6E8E6;
+  --brand: #60A5FA;
+  --brand-contrast: #0A122A;
   --muted-foreground: #A8A9AD;
 
   --background: var(--paper);
@@ -117,7 +117,7 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 12px 28px -20px rgba(0, 0, 0, 0.8), 0 3px 10px rgba(0, 0, 0, 0.34);
   --shadow-lg: 0 34px 80px -48px rgba(0, 0, 0, 0.95), 0 16px 36px -24px rgba(0, 0, 0, 0.72);
-  --shadow-glow: 0 30px 70px -34px rgba(36, 71, 108, 0.7);
+  --shadow-glow: 0 30px 70px -34px rgba(96, 165, 250, 0.55);
 }
 
 @utility shadow-soft { box-shadow: var(--shadow-sm); }
