@@ -69,7 +69,7 @@ export function Field({ label, name, type = "text", textarea, required }) {
 export function ContactRow({ icon, label, value, href }) {
   const body = (
     <>
-      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-hairline bg-paper text-brand shadow-soft">
+      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-hairline bg-paper text-brand shadow-soft transition-all duration-300 group-hover:border-brand group-hover:bg-brand group-hover:text-brand-contrast">
         {icon}
       </span>
       <span className="min-w-0">

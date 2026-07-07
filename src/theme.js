@@ -36,8 +36,8 @@ export const darkTheme = {
   surface: "#131C33",
   surface2: palette.astralBlue,
   card: "#0F1930",
-  brand: palette.astralBlue,
-  brandContrast: palette.stardustWhite,
+  brand: "#60A5FA",
+  brandContrast: palette.midnightNavy,
   muted: palette.moonlightGray,
   hairline: "rgba(230, 232, 230, 0.14)",
 };

@@ -93,7 +93,7 @@ export function AboutSection() {
             <div className="mb-4 text-xs font-medium uppercase text-brand">Skills</div>
             <div className="flex flex-wrap gap-2">
               {SKILLS.map((skill) => (
-                <span key={skill} className="rounded-full border border-hairline bg-paper px-3 py-1.5 text-xs text-muted-foreground shadow-soft">
+                <span key={skill} className="rounded-full border border-hairline bg-paper px-3 py-1.5 text-xs text-muted-foreground shadow-soft transition-all duration-300 hover:border-brand hover:bg-brand hover:text-brand-contrast">
                   {skill}
                 </span>
               ))}
@@ -216,7 +216,7 @@ function EmailRow() {
       onClick={onClick}
       className="group grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-2xl px-2 py-3 transition-colors hover:bg-surface"
     >
-      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-hairline bg-paper text-brand shadow-soft">
+      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-hairline bg-paper text-brand shadow-soft transition-all duration-300 group-hover:border-brand group-hover:bg-brand group-hover:text-brand-contrast">
         <Mail className="h-4 w-4" />
       </span>
       <span className="min-w-0">
