@@ -28,7 +28,7 @@ export function Hero() {
           </p>
           <h1 className="max-w-4xl text-[clamp(2.15rem,6.2vw,4.5rem)] font-semibold leading-[1.1] tracking-tight text-ink">
             <span className="block text-ink">Software</span>
-            <span className="block text-ink">Engineer &amp;</span>
+            <span className="block text-ink">Engineering &amp;</span>
             <span className="block text-brand">AI/ML Intern.</span>
           </h1>
         </div>

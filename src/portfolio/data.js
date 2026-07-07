@@ -19,8 +19,8 @@ export const PROJECTS = [
     title: "Ship Detection",
     kicker: "Computer Vision",
     description:
-      "Ensemble object-detection pipeline for maritime imagery using YOLO models, OpenCV, and dataset evaluation workflows.",
-    tech: ["Python", "YOLOv11", "OpenCV"],
+      "Three-model YOLO ensemble (YOLOv8s, YOLOv11s, YOLOv8m) with Weighted Box Fusion — 0.995 mAP@0.5 on SSDD. Led evaluation and ensemble strategy for a 3-person team.",
+    tech: ["Python", "YOLOv8/v11", "OpenCV", "Weighted Box Fusion"],
     href: `${GH}/Ship-detection-CV-Project`,
   },
   {
@@ -29,7 +29,7 @@ export const PROJECTS = [
     title: "Persist",
     kicker: "AI Goal Tracking",
     description:
-      "Cross-platform goal tracking concept with AI roadmaps, mood logs, stability scoring, and friend progress features.",
+      "20+ screen cross-platform app (React Native, migrating to Flutter) with LLM-powered planning, a 7-factor 'skip risk' model, mood logging, and a private friend-pod accountability system.",
     tech: ["React Native", "Flutter", "Firebase"],
     href: `${GH}/Persist-Doc`,
   },
@@ -47,29 +47,29 @@ export const PROJECTS = [
     n: "04",
     year: "2024",
     title: "Habit Tracker",
-    kicker: "Mobile Product",
+    kicker: "Web App",
     description:
-      "Streak-based mobile tracking product focused on habit consistency, simple feedback loops, and clean user flow.",
-    tech: ["React Native", "Mobile", "UX"],
+      "Streak-based habit tracker built with React, Vite, and Bootstrap — daily tracking, progress reports, and a consistency-focused UI.",
+    tech: ["React", "Vite", "Bootstrap"],
     href: `${GH}/Habit-Tracker-With-Streaks`,
   },
 ];
 
 export const EXPERIENCE = [
   {
-    period: "2023 — Now",
+    period: "2022 — 2024",
     role: "Data Annotator",
     org: "Adaxiom",
     desc: "Labelled CV and NLP datasets including bounding boxes, segmentation, and classification for production ML pipelines.",
   },
   {
-    period: "2024",
+    period: "Jun 2024 — Aug 2024",
     role: "Frontend Developer Intern",
     org: "Adaxiom",
-    desc: "Built user-facing web pages with HTML, CSS, and JavaScript while practicing design-to-code delivery.",
+    desc: "Built and shipped responsive web pages using HTML, CSS, and JavaScript in an Agile team, debugging cross-browser issues under real delivery timelines.",
   },
   {
-    period: "2022 — 2024",
+    period: "Sep 2023 — Mar 2026",
     role: "Computer Science Tutor",
     org: "Independent",
     desc: "Taught Python, DSA, and web fundamentals through practical, project-based sessions.",
@@ -78,8 +78,8 @@ export const EXPERIENCE = [
 
 export const SKILLS = [
   "Python", "JavaScript", "React Native", "Flutter", "Django",
-  "Firebase", "TensorFlow", "PyTorch", "OpenCV", "YOLOv11",
-  "scikit-learn", "Pandas",
+  "Firebase", "PyTorch", "OpenCV", "YOLOv8/v11", "scikit-learn",
+  "Pandas", "NumPy", "Git",
 ];
 
 export const EASE = [0.22, 1, 0.36, 1];

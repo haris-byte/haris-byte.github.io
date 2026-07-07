@@ -1,6 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Download, Menu, Moon, Sun, X } from "lucide-react";
-import cvAsset from "@/assets/cv.asset.json";
 import { NAV } from "./data";
 
 export function SiteHeader({ theme, toggle, navOpen, setNavOpen }) {
@@ -50,7 +49,7 @@ export function SiteHeader({ theme, toggle, navOpen, setNavOpen }) {
           </button>
 
           <a
-            href={cvAsset.url}
+            href="/Muhammad_Haris_Ali_CV.pdf"
             download
             className="hidden items-center gap-2 rounded-full bg-brand px-4 py-2.5 text-sm font-medium text-brand-contrast shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:shadow-glow md:inline-flex"
           >
@@ -89,7 +88,7 @@ export function SiteHeader({ theme, toggle, navOpen, setNavOpen }) {
                 </a>
               ))}
               <a
-                href={cvAsset.url}
+                href="/Muhammad_Haris_Ali_CV.pdf"
                 download
                 className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-brand px-4 py-3 text-sm font-medium text-brand-contrast shadow-card"
               >
